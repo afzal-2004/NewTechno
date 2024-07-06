@@ -1,0 +1,131 @@
+.HeroImage {
+    border-radius: 0px 0px 200px 200px;
+}
+
+.mobileImage {
+    border-radius: 0px 0px 50px 50px;
+}
+
+.About {
+    background-color: #21136A;
+    padding: 50px 0px 20px 0px;
+
+
+}
+
+.Brand {
+    @apply mt-[10vh] mb-[10vh] w-full flex justify-end;
+    padding: 50px 0px 10px 0px;
+
+
+}
+
+
+@keyframes Anima {
+
+    0% {
+        transform: translateY(30px);
+    }
+
+}
+
+.Animate {
+
+    animation: Anima 1s infinite;
+    animation-direction: alternate;
+
+}
+
+
+.about-text {
+    line-height: 35px;
+    word-spacing: 2px;
+
+}
+
+.Aboutcard {
+    border: 2px solid red;
+    border-radius: 0px 150px 150px 0px;
+}
+
+
+.brandcard {
+    background-color: #6420AA;
+    color: whitesmoke;
+    border-radius: 150px 0px 0px 150px;
+
+}
+
+.brandcardMobile {
+    background-color: #6420AA;
+    color: whitesmoke;
+
+
+
+}
+
+
+.BrandLogo {
+    @apply md:h-[200px] md:w-[200px] h-[150px] w-[150px] flex justify-center items-center flex-col bg-white text-black rounded-full m-[5px];
+
+
+}
+
+.BrandLogo:hover {
+    background-color: rgba(55, 55, 55, 1);
+    color: whitesmoke;
+}
+
+
+@keyframes GoogleAnime {
+    0% {
+        transform: translateY(30px);
+    }
+
+}
+
+.Googleanimate {
+    animation: GoogleAnime 1s 50ms infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes FacebookAnima {
+    0% {
+        transform: translateY(30px);
+    }
+
+}
+
+.Facebookanimate {
+    animation: FacebookAnima 1s 1s infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes AmazonAnime {
+    0% {
+        transform: translateY(30px);
+    }
+
+}
+
+.Amazonanimate {
+    animation: AmazonAnime 1s 1s infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes NetflixAnima {
+    0% {
+        transform: translateY(30px);
+    }
+
+}
+
+.Netflixanimate {
+    animation: NetflixAnima 1s 1s infinite;
+    animation-direction: alternate;
+
+}

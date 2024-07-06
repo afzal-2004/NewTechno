@@ -1,0 +1,4 @@
+ .parent {
+     @apply absolute w-[100vw] h-[100vh] z-40 m-0;
+     background-color: rgba(55, 55, 55, 0.5);
+ }
