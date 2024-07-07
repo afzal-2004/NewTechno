@@ -11,7 +11,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <nav className=" flex   justify-between p-3  items-center bg-white    sticky top-0 z-50 ">
+      <nav className="NavCss  ">
         <h1 className="   md:text-[35px]  text-[20px] font-bold ">NewTecho</h1>
         <div className="  md:flex gap-[30px] hidden ">
           <Link to={"/"}>Home</Link>
@@ -35,11 +35,8 @@ const NavBar = () => {
       </nav>
       <div>
         {OpenNav ? (
-          <div className="parent">
-            <ul
-              className="  flex flex-col bg-white 
-            w-[80%]  min-h-[70vh]  z-50  right-0  text-[20px]  text-red-500   fixed "
-            >
+          <div className="parent  sm:hidden">
+            <ul className="Child ">
               <li
                 className="  w-full p-4 border border-b-2 "
                 onClick={handelClicked}

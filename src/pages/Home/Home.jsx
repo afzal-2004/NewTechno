@@ -29,20 +29,16 @@ const Home = () => {
     <>
       <section>
         <div className="Hero  w-full  m-0  relative ">
-          <img
-            src="public/1.png"
-            alt=""
-            className="  md:HeroImage  mobileImage"
-          />
+          <img src="/1.png" alt="" className="  md:HeroImage  mobileImage" />
           <h1
             className="  text-white    absolute  
-               top-[40%]  
-           md:text-[40px]   text-[20px]
+               sm:top-[40%]  top-[30%]  right-[40px]
+           md:text-[40px]   text-[35px]
            md:right-5   font-bold  text-center p-4"
           >
             {" "}
             NewTech
-            <p className=" font-medium  sm:text-[35px]">
+            <p className=" font-medium  sm:text-[35px] text-[20px]">
               Something is new for you
             </p>
           </h1>
@@ -50,7 +46,7 @@ const Home = () => {
 
         <div className=" text-white text-[20px]  lg:flex justify-between  items-center min-h-[60vh] p-5 ">
           <img
-            src="public/2.webp"
+            src="/2.webp"
             alt=""
             className="Animate  text-center  sm:w-full"
           />
@@ -65,9 +61,10 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="About   " id="about">
+        <div className="About" id="about">
           <div
-            className="  Aboutcard   bg-white  
+            className="   sm:rounded-tr-[150px]  
+             sm:rounded-br-[150px] bg-white  
             md:mt-[10vh] min-h-[70vh] flex flex-col justify-center   p-[30px] sm:max-w-[70%]    "
           >
             <h1 className=" text-[40px] text-center uppercase"> About </h1>
@@ -88,7 +85,8 @@ const Home = () => {
             className=" md:max-w-[70%]  
           min-h-[70vh] flex  flex-col items-center
              brandcard justify-center  p-[30px] 
-             md:mt-[10vh] brandcardMobile
+             md:mt-[10vh]  sm:rounded-tl-[150px]  
+             sm:rounded-bl-[150px]
  "
           >
             <h1 className=" md:text-[40px] text-center uppercase text-[30px]">
@@ -100,7 +98,7 @@ const Home = () => {
                 <li
                   key={i}
                   className={` BrandLogo  
-                    md:${Brands.animationeffect}`}
+                   ${Brands.animationeffect}`}
                 >
                   {Brands.logo}
                   <p>{Brands.text}</p>

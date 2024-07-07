@@ -1,0 +1,8 @@
+.formcss {
+    @apply outline-none border border-red-200 p-2 text-[20px] rounded-md md:max-w-[50%] sm:w-[70%] w-full;
+}
+
+.ContactCard {
+    /* border: 2px solid red; */
+    border-radius: 0px 150px 150px 0px;
+}
