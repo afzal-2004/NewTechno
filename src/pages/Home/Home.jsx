@@ -2,6 +2,9 @@ import "./Home.css";
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
 import { GrAmazon } from "react-icons/gr";
 import { SiNetflix } from "react-icons/si";
+import Hero from "/public/1.png";
+import Web from "/public/2.webp";
+
 const Home = () => {
   const BrandLogo = [
     {
@@ -29,7 +32,7 @@ const Home = () => {
     <>
       <section>
         <div className="Hero  w-full  m-0  relative ">
-          <img src="/1.png" alt="" className="  md:HeroImage  mobileImage" />
+          <img src={Hero} alt="" className="  md:HeroImage  mobileImage" />
           <h1
             className="  text-white    absolute  
                sm:top-[40%]  top-[30%]  right-[40px]
@@ -45,11 +48,7 @@ const Home = () => {
         </div>
 
         <div className=" text-white text-[20px]  lg:flex justify-between  items-center min-h-[60vh] p-5 ">
-          <img
-            src="/2.webp"
-            alt=""
-            className="Animate  text-center  sm:w-full"
-          />
+          <img src={Web} alt="" className="Animate  text-center  sm:w-full" />
           <p className="  md:text-[20px] md:about-text  opacity-60">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
             distinctio molestias sunt consequatur, asperiores debitis cumque
