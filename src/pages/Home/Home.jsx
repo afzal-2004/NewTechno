@@ -2,8 +2,8 @@ import "./Home.css";
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
 import { GrAmazon } from "react-icons/gr";
 import { SiNetflix } from "react-icons/si";
-import Hero from "/public/1.png";
-import Web from "/public/2.webp";
+import Hero from "/1.png";
+import Web from "/2.webp";
 
 const Home = () => {
   const BrandLogo = [
